@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logos/adjare_estate_logo.svg";
 const Navbar = () => {
   return (
-    <div className="w-full flex justify-between items-center px-40 py-3 bg-white">
+    <div className="w-full flex justify-between items-center px-40 py-3 bg-white fixed z-120">
       <Link to="/">
         <img src={logo} alt="Agyare Real Estate logo" className="w-20" />
       </Link>
