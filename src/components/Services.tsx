@@ -2,11 +2,11 @@ import { serviceData } from "@/data/servicesData";
 
 const Services = () => {
   return (
-    <section className=" bg-white pb-10 flex items-center justify-between gap-[1%] ">
+    <section className=" bg-white pb-10 flex flex-col lg:flex-row items-center justify-between gap-[1%] ">
       {serviceData.map((item) => {
         return (
           <div
-            className="border-[0.032rem] border-[#E4E4E4] w-[32%] h-[18rem] flex flex-col justify-center p-3 rounded-2xl gap-3 hover:shadow-lg cursor-default"
+            className="border-[0.032rem] border-[#E4E4E4] lg:w-[32%] mb-5 lg:mb-0 w-full h-[18rem] flex flex-col justify-center p-3 sm:p-8 md:p-12 lg:p-3 rounded-2xl gap-3 hover:shadow-lg hover:shadow-[#0000000c] cursor-default"
             key={item.id}
           >
             <div className="mb-2">

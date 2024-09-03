@@ -1,19 +1,26 @@
 import { Icons } from "@/assets/Assets";
 import bg_img from "@/assets/regular_images/contact_bg_img.jpg";
 
-const Contact = () => {
+interface ContactProps {
+  paddingTopLg: string;
+  paddingTopSm: string;
+}
+
+const Contact = ({ paddingTopLg, paddingTopSm }: ContactProps) => {
   return (
-    <div className="px-[10%] pt-[15rem] pb-36 bg-black">
-      <div className="bg-gradient-to-tr from-[#FF1212]  to-[#00000000] h-[0.4rem] mb-20 w-14"></div>
-      <div className="flex py-8 px-10 rounded-2xl gap-10 border w-full border-[#FFFFFFE3] items-center justify-between">
-        <div className="rounded-lg overflow-hidden w-[50%]">
+    <div
+      className={`sm:px-[10%] px-4 xs:px-10 md:pt-[${paddingTopLg}] pt-[${paddingTopSm}] sm:pb-36 pb-[3rem] bg-black`}
+    >
+      <div className="bg-gradient-to-tr from-[#FF1212] to-[#00000000] h-[0.4rem] mb-20 w-14"></div>
+      <div className="flex flex-col md:flex-row py-3 sm:py-8 px-3 sm:px-10 rounded-2xl gap-10  sm:border w-full sm:border-[#FFFFFFE3] border-black items-center justify-between">
+        <div className="rounded-lg overflow-hidden md:w-[50%] w-full">
           <img src={bg_img} alt="man behind laptop" className="w-full" />
         </div>
-        <div className="w-1/2">
-          <h5 className="text-[#FFFFFF] font-semibold text-[1.8rem]">
+        <div className="md:w-[50%] w-full">
+          <h5 className="text-[#FFFFFF] font-semibold text-[1.1rem] sm:text-[1.8rem] md:text-[1.1rem] lg:text-[1.8rem]">
             Let's talk about your project
           </h5>
-          <p className="text-[#ffffffce] mb-8">
+          <p className="text-[#ffffffce] mb-8 sm:text-[1rem] text-[0.8rem] md:text-[0.8rem] lg:text-[1rem]">
             Contact us and let's build something beautiful together.
           </p>
           <form action="" className="w-full">

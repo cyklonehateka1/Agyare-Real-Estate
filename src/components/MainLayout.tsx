@@ -5,7 +5,9 @@ const MainLayout = () => {
   return (
     <div className="font-inter overflow-hidden text-black">
       <Navbar />
-      <Outlet />
+      <div className="pt-16">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );

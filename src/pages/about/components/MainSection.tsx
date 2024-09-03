@@ -4,7 +4,7 @@ import main_img from "@/assets/regular_images/about_img.jpg";
 const MainSection = () => {
   return (
     <div className="bg-white px-[10%] relative h-[67rem] flex items-end">
-      <div className="w-[80%] bg-white py-14 px-6 rounded-lg shadow-lg shadow-[#1118270D] absolute top-[-12rem]">
+      <div className="w-[80%] bg-white py-6 px-6 rounded-lg shadow-lg shadow-[#1118270D] absolute top-[-12rem]">
         <div className="w-full overflow-hidden mb-6">
           <img
             src={main_img}

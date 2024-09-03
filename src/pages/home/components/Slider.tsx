@@ -30,27 +30,28 @@ const Slider: React.FC = () => {
   };
 
   return (
-    <div className="p-5 bg-white absolute w-[80%] rounded-lg h-[28.2rem] left-[10%] bottom-[-15rem] overflow-hidden shadow-lg shadow-[#1118270D]">
+    <div className="sm:p-5 p-1 bg-white absolute w-[92.5%] sm:w-[80%] rounded-lg h-[40rem] md:h-[29.6rem] sm:left-[10%] left-4 md:bottom-[-15rem] bottom-[-30rem] overflow-hidden shadow-lg shadow-[#1118270D] flex flex-col gap-4 ">
       <div
-        className="flex w-[100%] h-[24.2rem] transition-transform duration-500 gap-[2%] ease-in-out"
-        style={{
-          transform: `translateX(-${activeIndex * 102}%)`,
-        }}
+        className={`flex w-[100%] h-[35rem] sm:h-[24.2rem] transition-transform duration-500 gap-[2%] ease-in-out`}
+        style={{ transform: `translateX(-${activeIndex * 102}%)` }}
       >
         {servicesSliderData.map((item: SliderItem) => (
           <div
-            className="flex w-full gap-5 items-center shrink-0"
+            className="flex flex-col md:flex-row w-full gap-5 items-center shrink-0 h-full"
             key={item.id}
           >
-            <div className="rounded-2xl w-1/2 overflow-hidden flex justify-center items-center">
-              <img src={item.img} alt={item.title} className="w-full" />
-            </div>
-            <div className="w-1/2">
+            <div
+              className="rounded-2xl md:w-1/2 w-full overflow-hidden h-full flex justify-center items-center bg-center bg-cover bg-no-repeat"
+              style={{ backgroundImage: `url(${item.img})` }}
+            ></div>
+            <div className="md:w-1/2 w-full">
               <div className="w-[40%] bg-[#FF0000] h-[0.15rem] mb-10"></div>
-              <h2 className="font-bold text-[3rem] leading-[3rem] mb-3">
+              <h2 className="font-bold md:text-[3rem] text-[1.2rem] sm:leading-[3rem] leading-[1.3rem] mb-3">
                 {item.title}
               </h2>
-              <p className="text-[#000000a4] mb-6">{item.description}</p>
+              <p className="text-[#000000a4] mb-6 sm:text-[0.85rem] text-[0.8rem]">
+                {item.description}
+              </p>
               <button className="flex items-center border border-[#FF0000] text-[#FF0000] font-bold px-9 py-3 rounded-lg">
                 Learn more
                 <Icons.ButtonArrow className="ml-4" />
