@@ -10,7 +10,7 @@ const Home = () => {
       <div className="sm:px-[10%] px-4 xs:px-6 lg:pt-[19rem] md:pt-[28rem] pt-[30rem] bg-white">
         <Services />
       </div>
-      <div className="sm:px-[10%] px-4 xs:px-6 bg-white relative lg:h-[78rem] md:h-[220rem] h-[117rem] xs:h-[121rem]">
+      <div className="sm:px-[10%] px-4 xs:px-6 bg-white relative lg:h-[78rem] md:h-[220rem] h-[117rem] xs:h-[123rem]">
         <OurSites />
       </div>
       <Contact />
