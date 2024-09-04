@@ -30,7 +30,7 @@ const Slider: React.FC = () => {
   };
 
   return (
-    <div className="sm:p-5 p-1 bg-white absolute w-[90%] sm:w-[80%] rounded-lg h-[40rem] lg:h-[29.6rem] sm:left-[10%] left-[5%] lg:bottom-[-15rem] md:bottom-[-22rem] bottom-[-30rem] overflow-hidden shadow-lg shadow-[#1118270D] flex flex-col gap-4 ">
+    <div className="sm:p-5 p-3 bg-white absolute w-[90%] sm:w-[80%] rounded-lg h-[40rem] lg:h-[29.6rem] sm:left-[10%] left-[5%] lg:bottom-[-15rem] md:bottom-[-22rem] bottom-[-26rem] overflow-hidden shadow-lg shadow-[#1118270D] flex flex-col gap-4 ">
       <div
         className={`flex w-[100%] h-[35rem] lg:h-[24.2rem] transition-transform duration-500 gap-[5%] ease-in-out`}
         style={{ transform: `translateX(-${activeIndex * 105}%)` }}
@@ -52,7 +52,7 @@ const Slider: React.FC = () => {
               <p className="text-[#000000a4] mb-6 sm:text-[0.85rem] text-[0.8rem]">
                 {item.description}
               </p>
-              <button className="flex items-center border border-[#FF0000] text-[#FF0000] font-bold px-9 py-3 rounded-lg">
+              <button className="flex items-center justify-center border border-[#FF0000] text-[#FF0000] font-bold w-full md:w-auto px-9 md:py-3 py-4 rounded-lg">
                 Learn more
                 <Icons.ButtonArrow className="ml-4" />
               </button>
