@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div className="w-screen">
       <HeroSection />
-      <div className="sm:px-[10%] px-4 xs:px-10 md:pt-[19rem] pt-[33rem] bg-white">
+      <div className="sm:px-[10%] px-4 xs:px-6 lg:pt-[19rem] md:pt-[28rem] pt-[33rem] bg-white">
         <Services />
       </div>
       <OurSites />
-      <Contact paddingTopLg="15rem" paddingTopSm="15rem" />
+      <Contact paddingTop="15rem" />
     </div>
   );
 };

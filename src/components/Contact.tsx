@@ -2,14 +2,13 @@ import { Icons } from "@/assets/Assets";
 import bg_img from "@/assets/regular_images/contact_bg_img.jpg";
 
 interface ContactProps {
-  paddingTopLg: string;
-  paddingTopSm: string;
+  paddingTop: string;
 }
 
-const Contact = ({ paddingTopLg, paddingTopSm }: ContactProps) => {
+const Contact = ({ paddingTop }: ContactProps) => {
   return (
     <div
-      className={`sm:px-[10%] px-4 xs:px-10 md:pt-[${paddingTopLg}] pt-[${paddingTopSm}] sm:pb-36 pb-[3rem] bg-black`}
+      className={`sm:px-[10%] px-4 xs:px-6 pt-[${paddingTop}] sm:pb-36 pb-[3rem] bg-black`}
     >
       <div className="bg-gradient-to-tr from-[#FF1212] to-[#00000000] h-[0.4rem] mb-20 w-14"></div>
       <div className="flex flex-col md:flex-row py-3 sm:py-8 px-3 sm:px-10 rounded-2xl gap-10  sm:border w-full sm:border-[#FFFFFFE3] border-black items-center justify-between">

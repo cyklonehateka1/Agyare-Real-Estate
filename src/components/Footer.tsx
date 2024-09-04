@@ -4,7 +4,7 @@ import { Icons } from "@/assets/Assets";
 
 const Footer = () => {
   return (
-    <div className="w-full px-5 sm:px-[10%] py-10 bg-white">
+    <div className="w-full px-5 sm:px-10 md:px-[10%] py-10 bg-white">
       <div className="sm:flex grid grid-cols-1 sm:grid-cols-2 gap-8 items-start justify-between mb-20">
         {/* Logo */}
         <img src={logo} alt="Agyare Real Estate" className="mx-auto sm:mx-0" />

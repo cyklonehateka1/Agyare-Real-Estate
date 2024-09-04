@@ -7,7 +7,7 @@ const About = () => {
     <div className="w-screen">
       <Header />
       <MainSection />
-      <Contact paddingTopLg="15rem" paddingTopSm="3rem" />
+      <Contact paddingTop="5rem" />
     </div>
   );
 };

@@ -3,8 +3,8 @@ import main_img from "@/assets/regular_images/about_img.jpg";
 
 const MainSection = () => {
   return (
-    <div className="bg-white px-[10%] relative h-[67rem] flex items-end">
-      <div className="w-[80%] bg-white py-6 px-6 rounded-lg shadow-lg shadow-[#1118270D] absolute top-[-12rem]">
+    <div className="bg-white  sm:px-[10%] px-4 xs:px-6 relative md:h-[67rem] h-[92rem] flex items-end">
+      <div className=" bg-white sm:p-6 p-3 w-[90%] sm:w-[80%] sm:left-[10%] left-[5%] rounded-lg shadow-lg shadow-[#1118270D] absolute top-[-12rem]">
         <div className="w-full overflow-hidden mb-6">
           <img
             src={main_img}

@@ -30,10 +30,10 @@ const Slider: React.FC = () => {
   };
 
   return (
-    <div className="sm:p-5 p-1 bg-white absolute w-[92.5%] sm:w-[80%] rounded-lg h-[40rem] md:h-[29.6rem] sm:left-[10%] left-4 md:bottom-[-15rem] bottom-[-30rem] overflow-hidden shadow-lg shadow-[#1118270D] flex flex-col gap-4 ">
+    <div className="sm:p-5 p-1 bg-white absolute w-[90%] sm:w-[80%] rounded-lg h-[40rem] lg:h-[29.6rem] sm:left-[10%] left-[5%] lg:bottom-[-15rem] md:bottom-[-22rem] bottom-[-30rem] overflow-hidden shadow-lg shadow-[#1118270D] flex flex-col gap-4 ">
       <div
-        className={`flex w-[100%] h-[35rem] sm:h-[24.2rem] transition-transform duration-500 gap-[2%] ease-in-out`}
-        style={{ transform: `translateX(-${activeIndex * 102}%)` }}
+        className={`flex w-[100%] h-[35rem] lg:h-[24.2rem] transition-transform duration-500 gap-[5%] ease-in-out`}
+        style={{ transform: `translateX(-${activeIndex * 105}%)` }}
       >
         {servicesSliderData.map((item: SliderItem) => (
           <div

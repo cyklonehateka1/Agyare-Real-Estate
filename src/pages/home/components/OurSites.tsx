@@ -2,7 +2,7 @@ import { Icons } from "@/assets/Assets";
 import houseImg from "@/assets/regular_images/white_house.jpg";
 const OurSites = () => {
   return (
-    <section className="w-full sm:px-[10%] px-4 xs:px-10 pt-3 bg-white">
+    <section className="w-full sm:px-[10%] px-4 xs:px-6 pt-3 bg-white">
       <div className="w-[20%] bg-[#FF0000] h-[0.15rem] mb-4"></div>
       <h3 className="font-bold sm:text-[3rem] text-[1.5rem] mb-10">
         Our Available sites
