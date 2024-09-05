@@ -9,6 +9,12 @@ import Stairs from "@/assets/icons/stairs.svg?react";
 import Fb from "@/assets/icons/fb_icon.svg?react";
 import Ig from "@/assets/icons/ig_icon.svg?react";
 import Youtube from "@/assets/icons/youtube.svg?react";
+import Close from "@/assets/icons/close.svg?react";
+import Menu from "@/assets/icons/menu.svg?react";
+import Target from "@/assets/icons/target.svg?react";
+import Diamond from "@/assets/icons/diamond.svg?react";
+import View from "@/assets/icons/view.svg?react";
+import CheckMarkCircle from "@/assets/icons/checkmark-circle.svg?react";
 
 export const Icons = {
   ButtonArrow,
@@ -22,4 +28,10 @@ export const Icons = {
   Fb,
   Ig,
   Youtube,
+  Close,
+  Menu,
+  Target,
+  Diamond,
+  View,
+  CheckMarkCircle,
 };

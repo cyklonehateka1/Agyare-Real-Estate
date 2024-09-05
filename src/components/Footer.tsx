@@ -15,16 +15,16 @@ const Footer = () => {
             Agyare Real Estate
           </h5>
           <div className="flex flex-col items-center sm:items-start text-[#0a142fd6] gap-2 text-[0.8rem]">
-            <Link to="/" className="text-center sm:text-left">
+            <Link to="/about" className="text-center sm:text-left">
               About us
             </Link>
-            <Link to="/" className="text-center sm:text-left">
-              Sites
+            <Link to="/properties/1" className="text-center sm:text-left">
+              Properties
             </Link>
             <Link to="/" className="text-center sm:text-left">
               Clients
             </Link>
-            <Link to="/" className="text-center sm:text-left">
+            <Link to="/contact" className="text-center sm:text-left">
               Contact Us
             </Link>
           </div>

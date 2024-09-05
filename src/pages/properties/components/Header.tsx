@@ -9,7 +9,7 @@ const Header = () => {
       className="bg-cover bg-center bg-no-repeat h-[27rem] sm:px-[10%] px-4 xs:px-6 pt-28 w-full flex flex-col justify-between relative"
     >
       <h1 className="text-white text-[2.5rem] sm:text-[4rem] font-bold leading-[4rem] w-[70%] mb-2">
-        About us
+        Properties
       </h1>
     </header>
   );
