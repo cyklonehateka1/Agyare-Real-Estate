@@ -1,11 +1,11 @@
-import bgImg from "../../../assets/regular_images/hero_img.jpg";
+import bgImg from "../../../assets/regular_images/about_img.jpg";
 import Slider from "./Slider";
 
 const HeroSection = () => {
   return (
     <section
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.84)), url(${bgImg})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.84)), url(${bgImg})`,
       }}
       className="bg-cover bg-center bg-no-repeat md:h-[40rem] sm:h-[30rem] h-[25rem] sm:px-[10%] px-4 xs:px-6 lg:pt-20 pt-8 w-full flex flex-col justify-between relative"
     >
