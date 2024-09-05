@@ -1,6 +1,6 @@
 import { Icons } from "@/assets/Assets";
 
-const ContactSection = () => {
+const MainSection = () => {
   return (
     <div className="bbg-white sm:px-[10%] px-4 xs:px-6 relative lg:h-[51rem] md:h-[48rem] h-[59rem] flex items-end lg:mb-20 mb-10">
       <div className="bg-white sm:p-6 p-3 w-[90%] sm:w-[80%] sm:left-[10%] left-[5%] rounded-lg shadow-lg shadow-[#1118270D] absolute top-[-12rem] lg:h-[40rem] md:h-[33rem] h-[24rem]">
@@ -79,7 +79,7 @@ const ContactSection = () => {
               placeholder="Message"
               className="bg-inherit px-2 py-2 border-[#000000B5] border rounded-[0.313rem] w-full h-20 text-[#3d3d3d] outline-none mb-3"
             ></textarea>
-            <button className="w-full text-[#000000B5] py-3 flex gap-3 rounded-[0.313rem] items-center justify-center bg-[#FF0000]">
+            <button className="w-full text-white py-3 flex gap-3 rounded-[0.313rem] items-center justify-center bg-[#FF0000]">
               Submit <Icons.ButtonArrow className="fill-white" />
             </button>
           </form>
@@ -89,4 +89,4 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default MainSection;

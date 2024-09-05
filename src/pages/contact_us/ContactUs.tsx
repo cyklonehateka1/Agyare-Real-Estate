@@ -1,11 +1,11 @@
-import ContactSection from "./components/ContactSection";
+import MainSection from "./components/MainSection";
 import Header from "./components/Header";
 
 const ContactUs = () => {
   return (
     <div className="w-screen">
       <Header />
-      <ContactSection />
+      <MainSection />
     </div>
   );
 };
