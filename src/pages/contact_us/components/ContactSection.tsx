@@ -16,10 +16,10 @@ const ContactSection = () => {
       </div>
       <div className="flex flex-col md:flex-row px-3 rounded-2xl gap-10 w-full items-center justify-between">
         <div className="rounded-lg overflow-hidden md:w-[50%] w-full">
-          <h3 className="font-semibold text-[1.8rem]">
+          <h3 className="font-semibold lg:text-[1.8rem] text-[1.4rem] xs:text-[1.6rem] sm:text-[2.1rem] md:text-[1.4rem]">
             Let’s talk about your project
           </h3>
-          <h5 className="font-medium text-[0.8rem] mb-6">
+          <h5 className="font-medium text-[0.8rem] sm:text-[1rem] md:text-[0.8rem] mb-6">
             Send us a message or request a quote for your next project
           </h5>
 
